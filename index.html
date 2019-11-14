@@ -9,24 +9,24 @@
 <body>
   <!-- container fluid pour que cela soit répartie sur toute la page de façon égale -->
   <div class="container-fluid">
-    <div class="row text-white text-lg-right text-sm-left font-weight-bold "><!--première ligne -->
+    <div class="row text-white text-lg-right text-left font-weight-bold "><!--première ligne -->
       <!-- bg = background -->
       <!-- col = c'est le nombre colonne - bg primary couleur fond bloc - text couleur et position  border = contour du bloc  -->
-      <div class="col-lg-3 col-sm-6 bg-primary  border border-light">BLOC 1</div>
-      <div class="col-lg-3 col-sm-6 bg-primary  border border-light">BLOC 2</div>
-      <div class="col-lg-3 col-sm-6 bg-primary  border border-light">BLOC 3</div>
-      <div class="col-lg-3 col-sm-6 bg-primary  border border-light">BLOC 4</div>
+      <div class="col-lg-3 col-6 bg-primary  border border-light">BLOC 1</div>
+      <div class="col-lg-3 col-6 bg-primary  border border-light">BLOC 2</div>
+      <div class="col-lg-3 col-6 bg-primary  border border-light">BLOC 3</div>
+      <div class="col-lg-3 col-6 bg-primary  border border-light">BLOC 4</div>
     </div>
-    <div class="row text-white text-lg-left text-sm-center border border-light font-weight-bold"><!--seconde ligne -->
+    <div class="row text-white text-lg-left text-center border border-light font-weight-bold"><!--seconde ligne -->
       <!-- md = medium, sm = small -->
-      <div class="col-lg-3 col-sm-12 bg-warning border border-light">BLOC 5</div>
+      <div class="col-lg-3 col-12 bg-warning border border-light">BLOC 5</div>
       <div class="col bg-warning border border-light">BLOC 6</div>
       <div class="col bg-warning border border-light">BLOC 7</div>
       <div class="col bg-warning border border-light">BLOC 8</div>
-      <div class="col-lg-3 col-sm-12 bg-warning border border-light">BLOC 9</div>
+      <div class="col-lg-3 col-12 bg-warning border border-light">BLOC 9</div>
     </div>
   </div>
-
+  <!-- retirer les sm etc dans col-sm-12, si on souhaite un même affichage lors de la reduction de la page-->
   <!-- script de bootstrap toujours à la fin de body -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
